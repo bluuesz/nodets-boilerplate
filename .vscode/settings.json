@@ -1,0 +1,22 @@
+{
+  "editor.formatOnSave": true,
+
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+
+  "eslint.validate": ["typescript"],
+
+  "editor.rulers": [80, 120],
+
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json"
+  }
+}
